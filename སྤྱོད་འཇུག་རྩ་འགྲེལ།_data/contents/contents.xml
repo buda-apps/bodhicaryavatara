@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contents>
+
+  <features>
+    <feature name="show-titles" value="true"/>
+    <feature name="show-subtitles" value="true"/>
+    <feature name="show-references" value="true"/>
+    <feature name="show-text-size-button" value="true"/>
+    <feature name="launch-action" value="previous"/>
+    <feature name="navigation-type" value="menu"/>
+    <feature name="title-type" value="screen"/>
+  </features>
+
+  <contents-items>
+    <contents-item id="1">
+      <title lang="default">སྤྱོད་འཇུག་རྩ་བ།</title>
+      <subtitle lang="default">ཞི་བ་ལྷའི་སྤྱོད་འཇུག</subtitle>
+      <image-filename>02-shiwalha.png</image-filename>
+      <link type="reference" target="B001.1.1" />
+      <layout mode="single">
+        <layout-collection id="C01"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="2">
+      <title lang="default">ཐོགས་མེད་བཟང་བོའི་འགྲེལ་བ།</title>
+      <subtitle lang="default">ཐོགས་མེད་བཟང་བོའི་སྤྱོད་འཇུག</subtitle>
+      <image-filename>01-Thokme.png</image-filename>
+      <link type="reference" target="B001" />
+      <layout mode="single">
+        <layout-collection id="C02"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="3">
+      <title lang="default">ཀུན་དཔལ་སྤྱོད་འཇུག</title>
+      <subtitle lang="default">ཀུན་དཔལ་སྤྱོད་འཇུག</subtitle>
+      <image-filename>03-kunpal.png</image-filename>
+      <link type="reference" target="B001" />
+      <layout mode="single">
+        <layout-collection id="C03"/>
+      </layout>
+    </contents-item>
+
+    <contents-item id="4">
+      <title lang="default">ཐུབ་བསྟན་ཆོས་ཀྱི་གྲགས་པའི་འགྲེལ་བ།</title>
+      <subtitle lang="default">ཐུབ་བསྟན་ཆོས་གྲགས་ཀྱི་སྤྱོད་འཇུག</subtitle>
+      <image-filename>02-shiwalha.png</image-filename>
+      <link type="reference" target="B001" />
+      <layout mode="single">
+        <layout-collection id="C04"/>
+      </layout>
+    </contents-item>
+  </contents-items>
+
+  <contents-screens>
+    <contents-screen id="1">
+      <title lang="default">Home</title>
+      <items>
+        <item id="1" />
+        <item id="2" />
+        <item id="3" />
+        <item id="4" />
+      </items>
+    </contents-screen>
+
+    <contents-screen id="2">
+      <title lang="default">སྤྱོད་འཇུག་རྩ་འགྲེལ།</title>
+      <items>
+      </items>
+    </contents-screen>
+  </contents-screens>
+</contents>
